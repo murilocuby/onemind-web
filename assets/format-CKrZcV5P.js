@@ -1,1 +1,0 @@
-function e(e){let t=Math.abs(e),n=e=>e.toLocaleString(`pt-BR`,{minimumFractionDigits:1,maximumFractionDigits:1});return t>=1e9?`R$ ${n(e/1e9)} bi`:t>=1e6?`R$ ${n(e/1e6)} mi`:t>=1e3?`R$ ${n(e/1e3)} mil`:e.toLocaleString(`pt-BR`,{style:`currency`,currency:`BRL`})}export{e as t};
